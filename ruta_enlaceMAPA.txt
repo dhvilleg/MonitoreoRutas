@@ -1,0 +1,19 @@
+# =====================================================================================
+# Usage:				Este archivo de configuracion es consumido por los scripts de 
+#						monitoreo, el formato del archivo es:
+#						routerName_inface:DirIP ejemplo FW_CAR1_in:10.151.22.3
+#														FW_CAR1_out:10.151.4.3
+#					******BORRAR ENCABEZADO AL EMPEZAR USO******
+# =====================================================================================
+#******** Las Siguientes IPs son de Pruebas*********
+net_uptime:10.36.22.12
+GW_Dmz_replica_IN:10.151.22.1
+FW_Dmz_replica_IN:10.151.22.3
+N7k_Red_replica_IN:10.151.4.253
+BorderGW_Red_replica_DCP_IN:10.151.4.8
+BorderGW_Red_replica_DCP_OUT:10.32.0.10
+Link_UioGye_CNT:10.32.252.10
+Link_UioGye_TELCO:10.32.254.70
+BorderGW_Red_replica_NAC_OUT:10.32.17.1
+BorderGW1_Red_replica_NAC-MIA:10.32.17.2
+BorderGW2_Red_replica_NAC-MIA:10.32.17.3

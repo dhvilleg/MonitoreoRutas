@@ -1,0 +1,13 @@
+# =====================================================================================
+# Usage:				Este archivo de configuracion es consumido por los scripts de 
+#						monitoreo, el formato del archivo es:
+#						routerName_inface:DirIP ejemplo FW_CAR1_in:10.151.22.3
+#														FW_CAR1_out:10.151.4.3
+#					******BORRAR ENCABEZADO AL EMPEZAR USO******
+# =====================================================================================
+#******** Las Siguientes IPs son de Pruebas*********
+net_uptime:10.36.22.12
+Fcip1_Tun1_out:10.151.22.10
+Fcip1_adm_in:10.151.50.21
+Fcip2_Tun1_out:10.151.22.11
+Fcip2_adm_in:10.151.50.22
